@@ -1,0 +1,14 @@
+name: Farms
+main: ifteam\Farms\Farms
+version: 1.2-alpha_M11
+author: ifteam
+api: 4.0.0
+
+commands:
+  농작물:
+    permission: farms.command
+    description: 농작물 명령어 입니다.
+
+permissions:
+  farms.command:
+    default: op
